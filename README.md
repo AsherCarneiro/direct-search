@@ -9,7 +9,7 @@ it also lets you use context menu to search selected text directly on youtube.
 
 [alt way to use: tutorial to add unpacked extension](https://www.youtube.com/watch?v=oswjtLwCUqg)
 
-### demo using crtl+shift+y and context menu:
+### demo using alt+shift+y for youtube, same for github, reddit, duckduckgo and context menu:
 
 ![a](demo.gif)
 
