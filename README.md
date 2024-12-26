@@ -5,7 +5,9 @@ its a chrome extension that lets you search anything on yt using CTRL + SHIFT + 
 
 it also lets you use context menu to search selected text directly
 
-[tutorial to add unpacked extension](https://www.youtube.com/watch?v=oswjtLwCUqg)
+🤠[download here!](https://github.com/AsherCarneiro/yt-search-bar/releases)
+
+[alt way to use: Tutorial to add unpacked extension](https://www.youtube.com/watch?v=oswjtLwCUqg)
 
 ### demo using crtl+shift+y and context menu:
 
