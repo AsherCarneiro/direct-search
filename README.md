@@ -1,15 +1,16 @@
-# yt-direct-search
-![](https://cdn3.iconfinder.com/data/icons/pixel-social-media-2/16/Youtube-128.png)
+# direct-search
+![](/icons/blueicon/128.png)
 
-its a chrome extension that lets you search anything on yt using CTRL + SHIFT + Y without navigating through youtube's homepage
+its a chrome extension that lets you search anything on yt using ALT + SHIFT + {Y,G,R,D} without navigating through homepage of sites like yt, github, reddit, duckduckgo, straight to results.
 
-it also lets you use context menu to search selected text directly
+it also lets you use context menu to search selected text directly on youtube.
 
 🤠[download here!](https://github.com/AsherCarneiro/yt-search-bar/releases)
 
-[alt way to use: Tutorial to add unpacked extension](https://www.youtube.com/watch?v=oswjtLwCUqg)
+[alt way to use: tutorial to add unpacked extension](https://www.youtube.com/watch?v=oswjtLwCUqg)
 
 ### demo using crtl+shift+y and context menu:
 
 ![a](demo.gif)
+
 

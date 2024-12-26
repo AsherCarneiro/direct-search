@@ -1,30 +1,44 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Direct Search",
-  "version": "1.0",
-  "description": "Press a shortcut to search YouTube directly or right-click to search selected text.",
-  "permissions": [
-    "activeTab",
-    "contextMenus"
-  ],
+  "name": "Direct Search",
+  "version": "1.1",
+  "description": "Search across 4 major sites (Reddit, DuckDuckGo, Youtube, Github) using keyboard shortcuts.",
+  "permissions": ["activeTab", "contextMenus"],
   "background": {
     "service_worker": "background.js"
   },
   "commands": {
-    "activate-spotlight": {
+    "search_youtube": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Y",
-        "mac": "Command+Shift+Y"
+        "default": "Alt+Shift+Y"
       },
-      "description": "Activate YouTube Direct search"
+      "description": "Search YouTube"
+    },
+    "search_github": {
+      "suggested_key": {
+        "default": "Alt+Shift+G"
+      },
+      "description": "Search GitHub"
+    },
+    "search_reddit": {
+      "suggested_key": {
+        "default": "Alt+Shift+R"
+      },
+      "description": "Search Reddit"
+    },
+    "search_duckduckgo": {
+      "suggested_key": {
+        "default": "Alt+Shift+D"
+      },
+      "description": "Search DuckDuckGo"
     }
   },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icons/new16.png",
-      "48": "icons/new48.png",
-      "128": "icons/new128.png"
+      "16": "icons/blueicon/16.png",
+      "48": "icons/blueicon/48.png",
+      "128": "icons/blueicon/128.png"
     }
   }
 }
